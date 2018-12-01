@@ -11,7 +11,7 @@ PORT?=8080
 RELEASE?=0.0.1
 
 # Parameters to push images and release app to Kubernetes or try it with Docker
-REGISTRY?=docker.io/webdeva
+REGISTRY?=docker.io/alexeypechen
 NAMESPACE?=alexeypechen
 CONTAINER_NAME?=${NAMESPACE}-${APP}
 CONTAINER_IMAGE?=${REGISTRY}/${CONTAINER_NAME}
